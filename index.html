@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +42,62 @@
          }
      </script>
 </head>
-<body>
+<body font="font-manrope">
+    <!-- Header Section -->
+    <header class="md:container md:mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start space-x-3">
+                <h3><i
+                        class="fa-solid fa-arrow-right text-xl bg-arrow_bg rounded-full -rotate-45 h-10 w-10 flex items-center justify-center p-2"></i>
+                </h3>
+                <h3 class=" text-3xl font-bold ">Rinterio</h3>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 justify-center items-center">
+                    <li><a
+                            class="text-xl font-bold hover:font-semibold transition-colors duration-350 ease-in-out">Home</a>
+                    </li>
+                    <li><a
+                            class="opacity-70 text-base hover:font-semibold transition-colors duration-350 ease-in-out ">Services</a>
+                    </li>
+                    <li><a
+                            class="opacity-70 text-base hover:font-semibold transition-colors duration-350 ease-in-out ">Portfolio</a>
+                    </li>
+                    <li><a class="opacity-70 text-base hover:font-semibold transition-colors duration-350 ease-in-out ">Blog</a>
+                    </li>
+                    <li><a class="opacity-70 text-base hover:font-semibold transition-colors duration-350 ease-in-out ">Contact
+                            Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <div class=" hidden md:flex justify-center items-center  space-x-4">
+
+                    <a href="#"><i class="fa-solid fa-magnifying-glass p-3 bg-white rounded-full border "></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping p-3 bg-white rounded-full border "></i></a>
+
+                    <a class="btn bg-arrow_bg rounded-full text-xl hover:bg-green-500 font-bold">Book Consult
+                        <span><i
+                                class="fa-solid fa-arrow-right text-lg bg-black text-white rounded-full -rotate-45 h-8 w-8 flex items-center justify-center"></i></a>
+
+                </div>
+
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-2">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
     
 </body>
 </html>
